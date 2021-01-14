@@ -193,6 +193,7 @@ function App() {
                     </div>
                     <div class='overlay' id='exped3'>
                         <h2 class=''>EXPEDITION #3</h2>
+                        <p>(click the project name for screenshots)</p>
                     </div>
                 </div>
                 <div class='main' id='item6'>
@@ -201,7 +202,7 @@ function App() {
                             href='https://five-star-mowing.herokuapp.com/'
                             target='_blank'
                         >
-                            <h3>Five Star Mowing</h3>
+                            <h3>Donations Query Tool</h3>
                         </a>
                         <h5>
                             Business Website | React JS + Node JS | Team Project
@@ -219,8 +220,8 @@ function App() {
                         </p>
                         <br />
                     </div>
-                    <div class='overlay' id='current'>
-                        <h2 class=''>EXPEDITION #2</h2>
+                    <div class='overlay' id='exped4'>
+                        <h2 class=''>EXPEDITION #4</h2>
                     </div>
                 </div>
                 <div class='main' id='item7'>
@@ -229,7 +230,7 @@ function App() {
                             href='https://brisband.herokuapp.com/'
                             target='_blank'
                         >
-                            <h3>BrisBand</h3>
+                            <h3>Source Tags</h3>
                         </a>
                         <h5>
                             2-Sided Social Marketplace | Ruby on Rails | Team
@@ -247,8 +248,8 @@ function App() {
                         </p>
                         <br />
                     </div>
-                    <div class='overlay' id='past'>
-                        <h2 class=''>EXPEDITION #1</h2>
+                    <div class='overlay' id='exped5'>
+                        <h2 class=''>EXPEDITION #5</h2>
                     </div>
                 </div>
                 <div class='main' id='item8'>
@@ -257,7 +258,7 @@ function App() {
                             href='https://five-star-mowing.herokuapp.com/'
                             target='_blank'
                         >
-                            <h3>Five Star Mowing</h3>
+                            <h3>Bulk Upload Txns</h3>
                         </a>
                         <h5>
                             Business Website | React JS + Node JS | Team Project
@@ -275,8 +276,8 @@ function App() {
                         </p>
                         <br />
                     </div>
-                    <div class='overlay' id='current'>
-                        <h2 class=''>EXPEDITION #2</h2>
+                    <div class='overlay' id='exped6'>
+                        <h2 class=''>EXPEDITION #6</h2>
                     </div>
                 </div>
                 <div class='main item9'>
