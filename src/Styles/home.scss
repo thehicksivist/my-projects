@@ -1,4 +1,4 @@
-@import "mixins.scss";
+@import 'mixins.scss';
 
 body {
     background-image: url(https://res.cloudinary.com/dvqlfwgtf/image/upload/v1542251526/peaks.jpg);
@@ -6,9 +6,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     display: grid;
-    grid-template-areas: "header"
-                         "main"
-                         "footer";
+    grid-template-areas:
+        'header'
+        'main'
+        'footer';
     grid-template-columns: 1fr;
 }
 
@@ -26,27 +27,25 @@ main {
 }
 
 footer {
-    background-color: #ffffff60;  
+    background-color: #ffffff60;
     max-width: 900px;
     display: grid;
     justify-content: space-evenly;
     margin: 10px auto;
 }
 
-
 /* content and overlay divs for main boxes */
 .content {
-    background-color:#ffffff60;
+    background-color: #ffffff60;
     @include flex;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
 .overlay {
-    background-color:white;
+    background-color: white;
     position: absolute;
     width: 100%;
     height: 100%;
     @include flex;
 }
-

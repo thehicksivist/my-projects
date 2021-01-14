@@ -1,4 +1,3 @@
-
 /* Mobile styles */
 @media screen and (max-width: 481px) {
     body {
@@ -6,22 +5,33 @@
         background-size: cover;
     }
     main {
-        grid-template-areas: "item1"
-                         "item2"
-                         "item3"
-                         "item4"
-                         "item5"
-                         "item6";
+        grid-template-areas:
+            'item1'
+            'item2'
+            'item3'
+            'item4'
+            'item5'
+            'item6'
+            'item7'
+            'item8'
+            'item9'
+            'item10';
         grid-template-columns: 1fr;
         grid-template-rows: 1fr repeat(6);
         font-size: 0.7rem;
     }
 
-    #item3, #item4 {
+    #item3,
+    #item4,
+    #item5,
+    #item6,
+    #item7,
+    #item8 {
         display: flex;
     }
-    
-    .item5, .item6 {
+
+    .item9,
+    .item10 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -48,7 +58,8 @@
     }
 
     /* caption and hold font sizes explicit to ensure layout responds correctly */
-    .caption, .content {
+    .caption,
+    .content {
         font-size: 1rem;
     }
 

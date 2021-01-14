@@ -1,15 +1,15 @@
-
 .main {
     position: relative;
     max-width: 900px;
     margin: 10px;
-    background-color: #ffffff60;  
+    background-color: #ffffff60;
     text-align: left;
     overflow: hidden;
     justify-content: space-evenly;
 }
 
-.item1, .item2 {
+.item1,
+.item2 {
     padding: 10px;
 }
 
@@ -21,24 +21,38 @@
     grid-area: item2;
 }
 
-.item3 {
+#item3 {
     grid-area: item3;
 }
 
-.item4 {
-    // grid-area: item4;
+#item4 {
+    grid-area: item4;
 }
 
-.item5 {
+#item5 {
     grid-area: item5;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
 }
 
-.item6 {
+#item6 {
     grid-area: item6;
+}
+
+#item7 {
+    grid-area: item7;
+}
+
+#item8 {
+    grid-area: item8;
+}
+
+.item9 {
+    grid-area: item9;
     padding-top: 5px;
     padding-bottom: 5px;
+}
 
+.item10 {
+    grid-area: item10;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
