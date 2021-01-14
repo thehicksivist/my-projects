@@ -1,0 +1,32 @@
+@import "mixins.scss";
+// BELOW IS FOR THE HEADER CARD
+  
+  .pcards {
+    position: relative;
+    @include flex;
+    max-width: 900px;
+    margin: 5px;
+    transition: 0.4s;
+    transform-style: preserve-3d;
+
+  
+    .pfront, .pback {
+      position: absolute;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+    
+    .pfront {
+    z-index: 3;  
+    }
+    
+    .pback {
+      transform: rotatey(-180deg);
+      z-index: 1;
+     @include flex;
+    }
+  }
+
+  // BELOW IS FOR THE OVERLAYS
+  
+ 
