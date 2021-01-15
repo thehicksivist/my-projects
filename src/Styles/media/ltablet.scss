@@ -7,8 +7,8 @@
             'item3 item4'
             'item5 item6'
             'item7 item8'
-            'item9 item9'
-            'item10 item10';
+            'item9 item10'
+            'item11 item11';
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr repeat(5);
         font-size: 0.8rem;
@@ -19,13 +19,14 @@
     #item5,
     #item6,
     #item7,
-    #item8 {
+    #item8,
+    #item9,
+    #item10 {
         display: flex;
         max-width: 440px;
     }
 
-    .item9,
-    .item10 {
+    .item11 {
         display: grid;
         grid-template-areas: 'content1 content2 content3 content4';
         grid-template-columns: 1fr repeat(4);

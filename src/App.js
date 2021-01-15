@@ -12,7 +12,8 @@ function App() {
         let exped4 = document.getElementById('exped4');
         let exped5 = document.getElementById('exped5');
         let exped6 = document.getElementById('exped6');
-        let tools = document.getElementById('tools');
+        let exped7 = document.getElementById('exped7');
+        let exped8 = document.getElementById('exped8');
 
         profile.addEventListener('click', spin);
         exped1.addEventListener('click', drop);
@@ -21,7 +22,8 @@ function App() {
         exped4.addEventListener('click', drop);
         exped5.addEventListener('click', drop);
         exped6.addEventListener('click', drop);
-        tools.addEventListener('click', drop);
+        exped7.addEventListener('click', drop);
+        exped8.addEventListener('click', drop);
 
         let spun = false;
 
@@ -174,49 +176,45 @@ function App() {
                 </div>
                 <div class='main' id='item5'>
                     <div class='content'>
-                        <button onClick={() => heyMate()}>CLICK</button>
+                        {/* <button onClick={() => heyMate()}>CLICK</button> */}
                         <h3 onClick={() => openModal('exped3')}>
                             Data Cleanse
                         </h3>
-                        <h5>
-                            Duplicate Report and Merge Tool | ReactJS + PHP |
-                            Full-Stack
-                        </h5>
+                        <h5>CRM Feature | ReactJS + PHP | Full-Stack</h5>
                         <br />
                         <p>
-                            created a repotr print-out of potential duplicates
-                            and the field which has suspected duplicate data -
-                            enabled the user to merge 2 source records, choosing
-                            which properties to keep from each record
+                            The CRM was filled with duplicate records, so we
+                            created a report of potential duplicates which
+                            highlighted the conflicting fields of 2 records.
+                            From there, a user could select a row in the table
+                            which would pop-up another screen to view both
+                            records in detail. On this screen the user could opt
+                            to keep details from either record, and merge them
+                            together - keeping all historical donations and
+                            interactions in tact. This allowed the CRM records
+                            to be much more accurate, saving thousands of
+                            potential missed or doubled-up EDMs.
                         </p>
                         <br />
                     </div>
                     <div class='overlay' id='exped3'>
                         <h2 class=''>EXPEDITION #3</h2>
-                        <p>(click the project name for screenshots)</p>
                     </div>
                 </div>
                 <div class='main' id='item6'>
                     <div class='content'>
-                        <a
-                            href='https://five-star-mowing.herokuapp.com/'
-                            target='_blank'
-                        >
-                            <h3>Donations Query Tool</h3>
-                        </a>
-                        <h5>
-                            Business Website | React JS + Node JS | Team Project
-                        </h5>
+                        <h3>Donations Query Tool</h3>
+                        <h5>Data Filter Tool | React JS + PHP | Full-Stack</h5>
                         <br />
                         <p>
-                            For our last assignment on bootcamp, we were tasked
-                            with finding a real-world client to build a product
-                            for over 3 weeks. We were excited to build a
-                            solution for a local business. We provided
-                            functionality for organising property inspections
-                            through a quote form, which is filled out by
-                            visitors to the site. It is then emailed to the
-                            business owner when submitted.{' '}
+                            Using elasticsearch as an indexing tool to for
+                            quick-querying, we built out a front-end display
+                            panel for the donation data. The user could filter
+                            the data based on a variety of pre-defined filters
+                            e.g date, amount, CRM Source properties. Results
+                            could be exported as CSV. This provided Finance and
+                            Fundraising with accurate lists for reporting and
+                            EDMs.
                         </p>
                         <br />
                     </div>
@@ -226,25 +224,19 @@ function App() {
                 </div>
                 <div class='main' id='item7'>
                     <div class='content'>
-                        <a
-                            href='https://brisband.herokuapp.com/'
-                            target='_blank'
-                        >
-                            <h3>Source Tags</h3>
-                        </a>
-                        <h5>
-                            2-Sided Social Marketplace | Ruby on Rails | Team
-                            Project
-                        </h5>
+                        <h3>Source Tags</h3>
+                        <h5>CRM Feature | ReactJS + PHP | Project Lead</h5>
                         <br />
                         <p>
-                            BrisBand is a social platform to connect musicians,
-                            sharing their love for equipment through posting,
-                            commenting and messaging features available after
-                            account creation. The posted items can be marked for
-                            sale by the owner at any time. This project taught
-                            us the value of scoping effectively, having
-                            successfully produced an MVP before expanding.
+                            To boost the power of the existing Donation Query
+                            Tool, a filter was added to enable Sources (CRM
+                            records) to be segmented for targeted Emails and
+                            data collection. It required new interfaces at
+                            Source creation and edit points on the front-end,
+                            and automation on the back-end depending primarily
+                            on Source donation activity. This improved reporting
+                            data, visualization of donor activity and
+                            communication efficiency for the Fundraising Team.
                         </p>
                         <br />
                     </div>
@@ -255,73 +247,78 @@ function App() {
                 <div class='main' id='item8'>
                     <div class='content'>
                         <a
-                            href='https://five-star-mowing.herokuapp.com/'
+                            href='https://locations.orangesky.org.au'
                             target='_blank'
+                            rel='noopener noreferrer'
                         >
-                            <h3>Bulk Upload Txns</h3>
+                            <h3>Locations Finder</h3>
                         </a>
                         <h5>
-                            Business Website | React JS + Node JS | Team Project
+                            Service Location Tool | ReactJS + PHP | Back-End
                         </h5>
                         <br />
                         <p>
-                            For our last assignment on bootcamp, we were tasked
-                            with finding a real-world client to build a product
-                            for over 3 weeks. We were excited to build a
-                            solution for a local business. We provided
-                            functionality for organising property inspections
-                            through a quote form, which is filled out by
-                            visitors to the site. It is then emailed to the
-                            business owner when submitted.{' '}
+                            In order to assist friends in finding services in
+                            their area, we built a mobile and web friendly
+                            location finder. A user can opt to use their device
+                            location or search by city or suburb. Each result is
+                            displayed with upcoming service types, times and
+                            status. Using a simple iframe of Google maps, we
+                            were able to inject the selected location data for
+                            quick-reference and link-out for directions. Now
+                            less friends miss out on clean laundry and
+                            meaningful conversations.
                         </p>
                         <br />
                     </div>
+
                     <div class='overlay' id='exped6'>
                         <h2 class=''>EXPEDITION #6</h2>
                     </div>
                 </div>
-                <div class='main item9'>
-                    <div class='content '>
-                        The Map...
-                        <img
-                            class='icon'
-                            src='https://res.cloudinary.com/dvqlfwgtf/image/upload/v1542251610/if_14_939747.png'
-                            alt='VScode Logo'
-                        />
+                <div class='main' id='item9'>
+                    <div class='content'>
+                        <h3>Bulk Transaction Uploader </h3>
+                        <h5>Finance Tool | ReactJS + PHP | Back-End</h5>
+                        <br />
+                        <p>
+                            As direct-debit payments were required to be entered
+                            into our system individually, we built a CSV upload
+                            tool that would handle all formats from different
+                            banks, and assign the payments to a Source in the
+                            CRM. After uploading, the user would be notified of
+                            successful, failed or repeated uploads. The outcome
+                            was an improvement in direct-debit processing time
+                            from 8hrs down to 1hr a week.
+                        </p>
+                        <br />
                     </div>
-                    <div class='content '>
-                        The Rucksack...
-                        <img
-                            class='icon'
-                            src='https://res.cloudinary.com/dvqlfwgtf/image/upload/v1542251522/if_github_308438.png'
-                            alt='GitHub Logo1'
-                        />
-                    </div>
-                    <div class='content '>
-                        The Journal...
-                        <img
-                            class='icon'
-                            src='https://res.cloudinary.com/dvqlfwgtf/image/upload/v1542251610/if_simplenote_334747.png'
-                            alt='Simplenote Logo'
-                        />
-                    </div>
-                    <div class='content '>
-                        The Compass...
-                        <img
-                            class='icon'
-                            src='https://res.cloudinary.com/dvqlfwgtf/image/upload/v1542251521/if_Trello-line-transparent_2061693.png'
-                            alt='Trello Logo'
-                        />
-                    </div>
-                    <div class='overlay' id='tools'>
-                        <h2 class=''>
-                            TOOLS OF
-                            <br />
-                            EXPLORATION
-                        </h2>
+                    <div class='overlay' id='exped7'>
+                        <h2 class=''>EXPEDITION #7</h2>
                     </div>
                 </div>
-                <div class='main item10'>
+                <div class='main' id='item10'>
+                    <div class='content'>
+                        <h3>Funraisin </h3>
+                        <h5>API Integration | ReactJS + PHP | Project Lead</h5>
+                        <br />
+                        <p>
+                            In order to effectively love and thank the donors of
+                            The Sudsy Challenge 2020, data from Funraisin needed
+                            to be mirrored into Orange Sky's custom CRM. This
+                            was done by configuring scripts to use the Funraisin
+                            API and Webhooks to sync all the data effectively.
+                            The information was then displayed in a manner that
+                            was optimized for the Fundraising team members'
+                            needs.
+                        </p>
+                        <br />
+                    </div>
+                    <div class='overlay' id='exped8'>
+                        <h2 class=''>EXPEDITION #8</h2>
+                    </div>
+                </div>
+                <div class='main item11'>
                     <div class='content'>
                         Explore my
                         <br /> work...
