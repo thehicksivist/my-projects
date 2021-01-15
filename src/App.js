@@ -382,10 +382,10 @@ function App() {
             <footer>
                 <h4 class='colour3 '>_CLICK BELOW FOR MY RESUME_</h4>
                 <a
-                    href='https://drive.google.com/open?id=1gvUc48lTanw0pquN26SKT1IUUCF-GfVd'
+                    href='https://drive.google.com/uc?export=download&id=1orystHtiRHapyYTk1lybzI9PpADSzKco'
                     target='_blank'
                 >
-                    {'james_and_the_giant_brackets'}
+                    {'>>> DOWNLOAD MY RESUME <<<'}
                 </a>
             </footer>
         </div>
