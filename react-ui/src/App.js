@@ -44,9 +44,7 @@ function App() {
             }, 6000);
         }
     };
-    const heyMate = () => {
-        console.log('YUPPP');
-    };
+
     const openModal = (prop) => {
         console.log('openModal', prop);
     };
@@ -89,9 +87,15 @@ function App() {
                         path that ensures we return with the results of our
                         master's request. Currently, I ascend the peaks daily in
                         the form of challenges through my Trademark{' '}
-                        <a>Undoing Perfectionism</a>. However I must find a new
-                        base camp to in order to explore and ascend to higher
-                        peaks...
+                        <a
+                            href='https://www.undoingperfectionism.com'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            Undoing Perfectionism
+                        </a>
+                        . However I must find a new base camp to in order to
+                        explore and ascend to higher peaks...
                     </p>
                 </div>
                 <div class='main item2'>
@@ -123,6 +127,7 @@ function App() {
                         <a
                             href='https://brisband.herokuapp.com/'
                             target='_blank'
+                            rel='noopener noreferrer'
                         >
                             <h3>BrisBand</h3>
                         </a>
@@ -151,6 +156,7 @@ function App() {
                         <a
                             href='https://five-star-mowing.herokuapp.com/'
                             target='_blank'
+                            rel='noopener noreferrer'
                         >
                             <h3>Five Star Mowing</h3>
                         </a>
@@ -325,6 +331,7 @@ function App() {
                         <a
                             href='https://github.com/thehicksivist?tab=repositories'
                             target='_blank'
+                            rel='noopener noreferrer'
                         >
                             <img
                                 class='icon links '
@@ -339,6 +346,7 @@ function App() {
                         <a
                             href='https://www.linkedin.com/in/james-hicks-7b5a9416a/'
                             target='_blank'
+                            rel='noopener noreferrer'
                         >
                             <img
                                 class='icon links '
@@ -353,6 +361,7 @@ function App() {
                         <a
                             href='https://www.instagram.com/james_and_the_giant_brackets/'
                             target='_blank'
+                            rel='noopener noreferrer'
                         >
                             <img
                                 class='icon links '
@@ -368,6 +377,7 @@ function App() {
                         <a
                             href='mailto:hicks.a.james@gmail.com'
                             target='_blank'
+                            rel='noopener noreferrer'
                         >
                             <img
                                 class='icon links '
@@ -384,6 +394,7 @@ function App() {
                 <a
                     href='https://drive.google.com/uc?export=download&id=1orystHtiRHapyYTk1lybzI9PpADSzKco'
                     target='_blank'
+                    rel='noopener noreferrer'
                 >
                     {'>>> DOWNLOAD MY RESUME <<<'}
                 </a>
